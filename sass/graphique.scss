@@ -1,0 +1,182 @@
+.graphique {
+  background: url('../img/bg-graphic.png');
+  .row {
+    margin: 0;
+    .col-md-2 {
+      width: 20%;
+      text-align: center;
+      border: 1px solid;
+      border-top: none;
+      border-left: none;
+      border-bottom: none;
+      height: 920px;
+      padding-top: 80px;
+      h1 {
+        font-size: 50px;
+        font-weight: bold;
+        color: #fff;
+      }
+      .shape-01,
+      .shape-02,
+      .shape-03,
+      .shape-04,
+      .shape-05 {
+        background: #00a74e;
+        position: relative;
+        width: 100%;
+      }
+      .shape-01 {
+        top: 459px;
+        height: 326px;
+        border-bottom-left-radius: 15px;
+        box-shadow: 6px 0px 70px #000;
+        z-index: 1;
+      }
+      .shape-02 {
+        top: 639px;
+        height: 146px;
+      }
+      .shape-03 {
+        top: 325px;
+        height: 460px;
+        box-shadow: 0 0 70px #000;
+        z-index: 1;
+      }
+      .shape-04 {
+        top: 459px;
+        height: 326px;
+      }
+      .shape-05 {
+        top: 686px;
+        height: 99px;
+        border-bottom-right-radius: 10px;
+        box-shadow: -5px 0 70px #000;
+        z-index: 1;
+      }
+      .circle {
+        background: #161616;
+        height: 30px;
+        width: 30px;
+        border: 5px solid #ffc600;
+        border-radius: 15px;
+        position: relative;
+        bottom: 149px;
+        left: 75px;
+        z-index: 2;
+        float: left;
+      }
+      .flag {
+        background: #ffc600;
+        width: 6px;
+        height: 304px;
+        position: relative;
+        bottom: 439px;
+        left: 57px;
+        z-index: 1;
+        float: left;
+      }
+      .flag-01 {
+       background: url('../img/flag-01.png');
+        width: 60px;
+        height: 40px;
+        position: relative;
+        z-index: 5;
+        bottom: 439px;
+        left: 57px;
+        float: left;
+      }
+    }
+    .dif {
+      border-right: none;
+    }
+  }
+  .container {
+    width: 100%;
+  }
+	// width: 1260px;
+	// margin: auto;
+	// background: url('../img/bg-graphic.png');
+	// font-family: Noto-Sans;
+	// td {
+	// 	width: 252px;
+ //    text-align: center;
+ //    vertical-align: initial;
+ //    border: 1px solid;
+ //    height: 920px;
+ //    padding-top: 82px;
+ //    h1 {
+ //    	color: #ffc600;
+ //    	font-size: 50px;
+ //    	font-weight: bold;
+ //    }
+ //    .shape-01,
+ //    .shape-02,
+ //    .shape-03,
+ //    .shape-04,
+ //    .shape-05 {
+ //    	background: #00a74e;
+	//     position: relative;
+	//     width: 251px;
+	//     height: 326px;
+ //    }
+ //    .shape-01 {
+ //    	top: 456px;
+	// 		border-bottom-left-radius: 10px;
+	//     box-shadow: 6px 0px 70px #000;
+ // 	 		z-index: 1;
+ //    }
+ //    .shape-02 {
+ //    	top: 636px;
+ //    	height: 146px;
+ //    }
+ //    .shape-03 {
+ //    	top: 322px;
+	//     height: 460px;
+	//     box-shadow: 0 0 70px #000;
+	//     z-index: 1;
+ //    }
+ //    .shape-04 {
+ //    	top: 456px;
+ //    	height: 326px;
+ //    }
+ //    .shape-05 {
+ //    	top: 683px;
+ //    	height: 99px;
+	// 		border-bottom-right-radius: 10px;
+	// 		box-shadow: -5px 0 70px #000;
+	//     z-index: 1;
+ //    }
+ //    .circle {
+	//     background: #161616;
+	//     height: 30px;
+	//     width: 30px;
+	//     border: 5px solid #ffc600;
+	//     border-radius: 15px;
+	//     position: relative;
+	//     bottom: 153px;
+	//     left: 75px;
+	//     z-index: 2;
+	//     float: left;
+ //    }
+ //    .flag {
+	//     background: #ffc600;
+	//     width: 6px;
+	//     height: 304px;
+	//     position: relative;
+	//     bottom: 442px;
+	//     left: 57px;
+	//     z-index: 1;
+	//     float: left;
+ //    }
+ //    .flag-01 {
+ //    	background: url('../img/flag-01.png');
+	//     width: 60px;
+	//     height: 40px;
+ //      position: relative;
+	//     z-index: 5;
+	//     bottom: 442px;
+	//     left: 57px;
+	//     float: left;
+ //    }
+	// }
+}

@@ -1,0 +1,553 @@
+h1, h2, h3, h4, h5, h6, p, ul, li, a {
+  margin: 0;
+  padding: 0; }
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  padding: 0; }
+
+.container {
+  margin: auto;
+  padding: 0px; }
+
+@font-face {
+  font-family: Noto-Sans;
+  src: url("../fonts/Noto Sans/NotoSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  background: #333333;
+  font-family: Noto-Sans; }
+
+.filter {
+  font-family: Noto-Sans;
+  width: 600px;
+  background: #111111;
+  border-radius: 10px;
+  margin: auto; }
+  .filter .slide {
+    background: #252525;
+    border: 1px solid; }
+  .filter .container {
+    padding-top: 40px;
+    margin: auto;
+    width: 518px; }
+    .filter .container .row {
+      margin: 0; }
+      .filter .container .row .input-group {
+        padding-bottom: 40px; }
+        .filter .container .row .input-group .btn, .filter .container .row .input-group input {
+          height: 80px;
+          font-size: 32px;
+          background: #252525;
+          border: none;
+          color: rgba(225, 225, 225, 0.5); }
+    .filter .container h4 {
+      color: #fff;
+      font-size: 32px;
+      font-weight: bold;
+      margin: 25px 0; }
+    .filter .container .row-01 .slide {
+      background: #252525;
+      border: 1px solid;
+      margin-bottom: 30px; }
+    .filter .container .row-01 span {
+      font-family: Noto-Sans;
+      font-size: 32px; }
+    .filter .container .row-01 input {
+      width: 120px;
+      height: 60px;
+      font-size: 32px;
+      font-weight: bold;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      padding-left: 12px;
+      margin: 0 15px; }
+    .filter .container .row-02 .slide, .filter .container .row-03 .slide {
+      background: #252525;
+      border: 1px solid;
+      margin: 40px 0 0; }
+    .filter .container .row-02 .slider, .filter .container .row-03 .slider {
+      background: #555555;
+      height: 14px;
+      border-radius: 15px;
+      margin: 40px 0 30px; }
+      .filter .container .row-02 .slider .circle, .filter .container .row-02 .slider .circle-01, .filter .container .row-03 .slider .circle, .filter .container .row-03 .slider .circle-01 {
+        background: #e5e5e5;
+        height: 30px;
+        width: 30px;
+        border: 9px solid #fff;
+        border-radius: 15px;
+        position: relative;
+        bottom: 8px;
+        float: left; }
+      .filter .container .row-02 .slider .circle-01, .filter .container .row-03 .slider .circle-01 {
+        right: 20%;
+        float: right;
+        bottom: 8px; }
+    .filter .container .row-02 #number, .filter .container .row-03 #number {
+      padding: 0 0 0 10%; }
+    .filter .container .row-02 #number-01, .filter .container .row-03 #number-01 {
+      padding: 0 20px 0 10%; }
+    .filter .container .row-02 span, .filter .container .row-03 span {
+      font-size: 26px; }
+    .filter .container .row-03 .btn {
+      height: 80px;
+      width: 520px;
+      font-size: 32px;
+      font-weight: bold;
+      text-align: left;
+      margin: 30px 0 40px; }
+      .filter .container .row-03 .btn span {
+        position: relative;
+        float: right;
+        top: 15px;
+        border-top: 20px dashed;
+        border-right: 20px solid transparent;
+        border-left: 20px solid transparent; }
+    .filter .container .row-03 .slide {
+      margin: 0; }
+    .filter .container .row-03 .slider {
+      margin: 0 0 30px; }
+      .filter .container .row-03 .slider .circle, .filter .container .row-03 .slider .circle-01 {
+        background: #e5e5e5;
+        height: 30px;
+        width: 30px;
+        border: 9px solid #fff;
+        border-radius: 15px;
+        position: relative;
+        bottom: 8px;
+        left: 33%; }
+    .filter .container .row-03 input {
+      width: 120px;
+      height: 60px;
+      font-size: 32px;
+      font-weight: bold;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      padding-left: 12px;
+      margin: 30px 0 40px; }
+    .filter .container .row-03 .checkbox {
+      height: 46px;
+      margin-bottom: 30px;
+      color: #fff; }
+      .filter .container .row-03 .checkbox .checkbox-01 {
+        width: 46px;
+        height: 46px;
+        background: #fff;
+        border-radius: 10px;
+        position: absolute; }
+        .filter .container .row-03 .checkbox .checkbox-01:hover {
+          cursor: pointer; }
+      .filter .container .row-03 .checkbox .checkbox-checked {
+        background: url("../img/checked.jpg"); }
+        .filter .container .row-03 .checkbox .checkbox-checked:hover {
+          cursor: pointer; }
+      .filter .container .row-03 .checkbox .text-checkbox {
+        height: 46px;
+        line-height: 46px;
+        margin-left: 70px; }
+
+.downloadfile .container {
+  width: 600px; }
+.downloadfile #wapper {
+  position: relative;
+  width: 600px;
+  height: 430px;
+  background: #0e8ad9;
+  border-radius: 20px; }
+  .downloadfile #wapper .box-01, .downloadfile #wapper .box-02, .downloadfile #wapper .box-03, .downloadfile #wapper .box-4 {
+    position: absolute; }
+  .downloadfile #wapper .box-01 {
+    text-align: center;
+    background: #fff;
+    width: 180px;
+    height: 253px;
+    border-radius: 10px;
+    top: 80px;
+    left: 40px; }
+    .downloadfile #wapper .box-01 .text-box {
+      position: relative;
+      top: 70px; }
+      .downloadfile #wapper .box-01 .text-box h1 {
+        color: #0e8ad9;
+        font-size: 100px;
+        font-weight: bold;
+        padding-bottom: 25px; }
+      .downloadfile #wapper .box-01 .text-box p {
+        font-size: 22px; }
+  .downloadfile #wapper .box-03 {
+    background: #0e8ad9;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    top: 23%;
+    left: 20%; }
+  .downloadfile #wapper .box-02 {
+    background: #cfe8f7;
+    width: 4px;
+    height: 100px;
+    left: 128px; }
+  .downloadfile #wapper .text {
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    top: 80px;
+    left: 45%; }
+    .downloadfile #wapper .text h1 {
+      font-size: 32px;
+      font-weight: bold;
+      padding-bottom: 15px; }
+    .downloadfile #wapper .text p {
+      font-size: 26px;
+      opacity: 0.7;
+      padding-bottom: 15px; }
+    .downloadfile #wapper .text button {
+      font-size: 26px;
+      font-weight: bold;
+      background: none;
+      border: 5px solid rgba(255, 255, 255, 0.3);
+      border-radius: 40px;
+      height: 80px;
+      width: 300px;
+      -webkit-transition: 0.5s;
+      -moz-transition: 0.5s;
+      -ms-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s; }
+      .downloadfile #wapper .text button:hover {
+        background: #fff;
+        color: #000; }
+
+.user-profile {
+  background: #fff;
+  width: 600px;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto; }
+  .user-profile .container {
+    width: 520px;
+    padding-top: 80px;
+    margin: auto; }
+    .user-profile .container .user-content .row {
+      margin: 0; }
+      .user-profile .container .user-content .row .avatar {
+        padding-bottom: 40px; }
+      .user-profile .container .user-content .row h1 {
+        font-size: 50px;
+        font-weight: bold;
+        padding-bottom: 15px; }
+      .user-profile .container .user-content .row button {
+        width: 100%;
+        height: 100px;
+        background: #ffc600;
+        font-size: 32px;
+        font-weight: bold;
+        border: none;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+        .user-profile .container .user-content .row button:hover {
+          background: #000;
+          color: #fff; }
+      .user-profile .container .user-content .row p {
+        font-size: 26px;
+        opacity: .5;
+        padding-bottom: 20px; }
+      .user-profile .container .user-content .row .col-md-3 {
+        border: 3px solid #e7e7e7;
+        height: 95px;
+        line-height: 95px;
+        margin-bottom: 49px; }
+        .user-profile .container .user-content .row .col-md-3 a:hover {
+          opacity: .6; }
+    .user-profile .container .user-content .info {
+      opacity: .4;
+      padding-bottom: 30px; }
+      .user-profile .container .user-content .info img {
+        margin-left: 30px; }
+      .user-profile .container .user-content .info span {
+        font-size: 26px;
+        vertical-align: middle;
+        margin-left: 8px;
+        font-weight: bold; }
+
+.filter {
+  font-family: Noto-Sans;
+  width: 600px;
+  background: #111111;
+  border-radius: 10px;
+  margin: auto; }
+  .filter .slide {
+    background: #252525;
+    border: 1px solid; }
+  .filter .container {
+    padding-top: 40px;
+    margin: auto;
+    width: 518px; }
+    .filter .container .row {
+      margin: 0; }
+      .filter .container .row .input-group {
+        padding-bottom: 40px; }
+        .filter .container .row .input-group .btn, .filter .container .row .input-group input {
+          height: 80px;
+          font-size: 32px;
+          background: #252525;
+          border: none;
+          color: rgba(225, 225, 225, 0.5); }
+    .filter .container h4 {
+      color: #fff;
+      font-size: 32px;
+      font-weight: bold;
+      margin: 25px 0; }
+    .filter .container .row-01 .slide {
+      background: #252525;
+      border: 1px solid;
+      margin-bottom: 30px; }
+    .filter .container .row-01 span {
+      font-family: Noto-Sans;
+      font-size: 32px; }
+    .filter .container .row-01 input {
+      width: 120px;
+      height: 60px;
+      font-size: 32px;
+      font-weight: bold;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      padding-left: 12px;
+      margin: 0 15px; }
+    .filter .container .row-02 .slide, .filter .container .row-03 .slide {
+      background: #252525;
+      border: 1px solid;
+      margin: 40px 0 0; }
+    .filter .container .row-02 .slider, .filter .container .row-03 .slider {
+      background: #555555;
+      height: 14px;
+      border-radius: 15px;
+      margin: 40px 0 30px; }
+      .filter .container .row-02 .slider .circle, .filter .container .row-02 .slider .circle-01, .filter .container .row-03 .slider .circle, .filter .container .row-03 .slider .circle-01 {
+        background: #e5e5e5;
+        height: 30px;
+        width: 30px;
+        border: 9px solid #fff;
+        border-radius: 15px;
+        position: relative;
+        bottom: 8px;
+        float: left; }
+      .filter .container .row-02 .slider .circle-01, .filter .container .row-03 .slider .circle-01 {
+        right: 20%;
+        float: right;
+        bottom: 8px; }
+    .filter .container .row-02 #number, .filter .container .row-03 #number {
+      padding: 0 0 0 10%; }
+    .filter .container .row-02 #number-01, .filter .container .row-03 #number-01 {
+      padding: 0 20px 0 10%; }
+    .filter .container .row-02 span, .filter .container .row-03 span {
+      font-size: 26px; }
+    .filter .container .row-03 .btn {
+      height: 80px;
+      width: 520px;
+      font-size: 32px;
+      font-weight: bold;
+      text-align: left;
+      margin: 30px 0 40px; }
+      .filter .container .row-03 .btn span {
+        position: relative;
+        float: right;
+        top: 15px;
+        border-top: 20px dashed;
+        border-right: 20px solid transparent;
+        border-left: 20px solid transparent; }
+    .filter .container .row-03 .slide {
+      margin: 0; }
+    .filter .container .row-03 .slider {
+      margin: 0 0 30px; }
+      .filter .container .row-03 .slider .circle, .filter .container .row-03 .slider .circle-01 {
+        background: #e5e5e5;
+        height: 30px;
+        width: 30px;
+        border: 9px solid #fff;
+        border-radius: 15px;
+        position: relative;
+        bottom: 8px;
+        left: 33%; }
+    .filter .container .row-03 input {
+      width: 120px;
+      height: 60px;
+      font-size: 32px;
+      font-weight: bold;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      padding-left: 12px;
+      margin: 30px 0 40px; }
+    .filter .container .row-03 .checkbox {
+      height: 46px;
+      margin-bottom: 30px;
+      color: #fff; }
+      .filter .container .row-03 .checkbox .checkbox-01 {
+        width: 46px;
+        height: 46px;
+        background: #fff;
+        border-radius: 10px;
+        position: absolute; }
+        .filter .container .row-03 .checkbox .checkbox-01:hover {
+          cursor: pointer; }
+      .filter .container .row-03 .checkbox .checkbox-checked {
+        background: url("../img/checked.jpg"); }
+        .filter .container .row-03 .checkbox .checkbox-checked:hover {
+          cursor: pointer; }
+      .filter .container .row-03 .checkbox .text-checkbox {
+        height: 46px;
+        line-height: 46px;
+        margin-left: 70px; }
+
+.responsive-calendar {
+  background: #111;
+  border-radius: 12px;
+  width: 1260px;
+  margin: auto; }
+  .responsive-calendar .container {
+    width: 1035px;
+    margin: auto; }
+    .responsive-calendar .container .controls {
+      background: #ffc600;
+      height: 100px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      line-height: 100px;
+      margin: 0px -113px 0 -112px; }
+      .responsive-calendar .container .controls h4 {
+        font-size: 32px;
+        font-weight: bold; }
+      .responsive-calendar .container .controls a {
+        position: relative;
+        top: 500px;
+        color: #a0a0a0; }
+        .responsive-calendar .container .controls a i {
+          font-size: 80px; }
+    .responsive-calendar .container .day-headers {
+      height: 80px;
+      line-height: 80px;
+      color: rgba(225, 225, 225, 0.5); }
+      .responsive-calendar .container .day-headers .day.header {
+        border: 1px solid;
+        font-weight: bold;
+        font-size: 22px; }
+    .responsive-calendar .container .days .day {
+      border: 1px solid; }
+      .responsive-calendar .container .days .day a {
+        color: #fff;
+        font-size: 42px;
+        height: 145px;
+        padding: 0;
+        line-height: 145px; }
+        .responsive-calendar .container .days .day a:hover {
+          background: #ffc600;
+          color: #000; }
+    .responsive-calendar .container .days .today {
+      background: #ffc600; }
+      .responsive-calendar .container .days .today a {
+        color: #000; }
+    .responsive-calendar .container .days .day.not-current a {
+      color: #414141;
+      font-size: 42px; }
+      .responsive-calendar .container .days .day.not-current a:hover {
+        background: #ffc600;
+        color: #000; }
+
+.graphique {
+  background: url("../img/bg-graphic.png"); }
+  .graphique .row {
+    margin: 0; }
+    .graphique .row .col-md-2 {
+      width: 20%;
+      text-align: center;
+      border: 1px solid;
+      border-top: none;
+      border-left: none;
+      border-bottom: none;
+      height: 920px;
+      padding-top: 80px; }
+      .graphique .row .col-md-2 h1 {
+        font-size: 50px;
+        font-weight: bold;
+        color: #fff; }
+      .graphique .row .col-md-2 .shape-01,
+      .graphique .row .col-md-2 .shape-02,
+      .graphique .row .col-md-2 .shape-03,
+      .graphique .row .col-md-2 .shape-04,
+      .graphique .row .col-md-2 .shape-05 {
+        background: #00a74e;
+        position: relative;
+        width: 100%; }
+      .graphique .row .col-md-2 .shape-01 {
+        top: 459px;
+        height: 326px;
+        border-bottom-left-radius: 15px;
+        box-shadow: 6px 0px 70px #000;
+        z-index: 1; }
+      .graphique .row .col-md-2 .shape-02 {
+        top: 639px;
+        height: 146px; }
+      .graphique .row .col-md-2 .shape-03 {
+        top: 325px;
+        height: 460px;
+        box-shadow: 0 0 70px #000;
+        z-index: 1; }
+      .graphique .row .col-md-2 .shape-04 {
+        top: 459px;
+        height: 326px; }
+      .graphique .row .col-md-2 .shape-05 {
+        top: 686px;
+        height: 99px;
+        border-bottom-right-radius: 10px;
+        box-shadow: -5px 0 70px #000;
+        z-index: 1; }
+      .graphique .row .col-md-2 .circle, .graphique .row .col-md-2 .filter .container .row-02 .slider .circle-01, .filter .container .row-02 .slider .graphique .row .col-md-2 .circle-01, .graphique .row .col-md-2 .filter .container .row-03 .slider .circle-01, .filter .container .row-03 .slider .graphique .row .col-md-2 .circle-01 {
+        background: #161616;
+        height: 30px;
+        width: 30px;
+        border: 5px solid #ffc600;
+        border-radius: 15px;
+        position: relative;
+        bottom: 149px;
+        left: 75px;
+        z-index: 2;
+        float: left; }
+      .graphique .row .col-md-2 .flag {
+        background: #ffc600;
+        width: 6px;
+        height: 304px;
+        position: relative;
+        bottom: 439px;
+        left: 57px;
+        z-index: 1;
+        float: left; }
+      .graphique .row .col-md-2 .flag-01 {
+        background: url("../img/flag-01.png");
+        width: 60px;
+        height: 40px;
+        position: relative;
+        z-index: 5;
+        bottom: 439px;
+        left: 57px;
+        float: left; }
+    .graphique .row .dif {
+      border-right: none; }
+  .graphique .container {
+    width: 100%; }
+
+.info-01,
+.info-02,
+.info-03 {
+  position: relative; }
+
+/*# sourceMappingURL=main.css.map */
