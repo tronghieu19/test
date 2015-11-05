@@ -223,12 +223,11 @@ body {
 
 .user-profile {
   background: #fff;
-  width: 600px;
   border-radius: 10px;
   text-align: center;
   margin: auto; }
   .user-profile .container {
-    width: 520px;
+    width: 85%;
     padding-top: 80px;
     margin: auto; }
     .user-profile .container .user-content .row {
@@ -464,7 +463,8 @@ body {
         color: #000; }
 
 .graphique {
-  background: url("../img/bg-graphic.png"); }
+  background: url("../img/bg-graphic.png");
+  background-size: cover; }
   .graphique .row {
     margin: 0; }
     .graphique .row .col-md-2 {
