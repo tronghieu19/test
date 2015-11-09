@@ -3,10 +3,8 @@
 	background: #111;
   border-radius: 12px;
   width: 1260px;
-  margin: auto;
   .container {
   	width: 1035px;
-  	margin: auto;
 		.controls {
 	    background: #ffc600;
 	    height: 100px;
@@ -43,7 +41,6 @@
 				a {
 			    color: #fff;
 			    font-size: 42px;
-			    height: 145px;
 			    padding: 0;
 			    line-height: 145px;
 					&:hover {

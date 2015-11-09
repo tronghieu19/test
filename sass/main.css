@@ -91,6 +91,8 @@ body {
       padding: 0 20px 0 10%; }
     .filter .container .row-02 span, .filter .container .row-03 span {
       font-size: 26px; }
+    .filter .container .row-03 .dropdown-menu {
+      top: 72%; }
     .filter .container .row-03 .btn {
       height: 80px;
       width: 520px;
@@ -144,82 +146,79 @@ body {
         background: url("../img/checked.jpg"); }
         .filter .container .row-03 .checkbox .checkbox-checked:hover {
           cursor: pointer; }
+      .filter .container .row-03 .checkbox .checkbox-unchecked {
+        background: #fff; }
+        .filter .container .row-03 .checkbox .checkbox-unchecked:hover {
+          cursor: pointer; }
       .filter .container .row-03 .checkbox .text-checkbox {
         height: 46px;
         line-height: 46px;
         margin-left: 70px; }
 
-.downloadfile .container {
-  width: 600px; }
-.downloadfile #wapper {
-  position: relative;
+.downloadfile {
   width: 600px;
-  height: 430px;
   background: #0e8ad9;
   border-radius: 20px; }
-  .downloadfile #wapper .box-01, .downloadfile #wapper .box-02, .downloadfile #wapper .box-03, .downloadfile #wapper .box-4 {
-    position: absolute; }
-  .downloadfile #wapper .box-01 {
-    text-align: center;
-    background: #fff;
-    width: 180px;
-    height: 253px;
-    border-radius: 10px;
-    top: 80px;
-    left: 40px; }
-    .downloadfile #wapper .box-01 .text-box {
-      position: relative;
-      top: 70px; }
-      .downloadfile #wapper .box-01 .text-box h1 {
-        color: #0e8ad9;
-        font-size: 100px;
-        font-weight: bold;
-        padding-bottom: 25px; }
-      .downloadfile #wapper .box-01 .text-box p {
-        font-size: 22px; }
-  .downloadfile #wapper .box-03 {
-    background: #0e8ad9;
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    top: 23%;
-    left: 20%; }
-  .downloadfile #wapper .box-02 {
-    background: #cfe8f7;
-    width: 4px;
-    height: 100px;
-    left: 128px; }
-  .downloadfile #wapper .text {
-    color: #fff;
-    position: absolute;
-    text-align: center;
-    width: 50%;
-    top: 80px;
-    left: 45%; }
-    .downloadfile #wapper .text h1 {
-      font-size: 32px;
-      font-weight: bold;
-      padding-bottom: 15px; }
-    .downloadfile #wapper .text p {
-      font-size: 26px;
-      opacity: 0.7;
-      padding-bottom: 15px; }
-    .downloadfile #wapper .text button {
-      font-size: 26px;
-      font-weight: bold;
-      background: none;
-      border: 5px solid rgba(255, 255, 255, 0.3);
-      border-radius: 40px;
-      height: 80px;
-      width: 300px;
-      -webkit-transition: 0.5s;
-      -moz-transition: 0.5s;
-      -ms-transition: 0.5s;
-      -o-transition: 0.5s;
-      transition: 0.5s; }
-      .downloadfile #wapper .text button:hover {
+  .downloadfile .container {
+    width: 520px;
+    padding: 80px 0 82px; }
+    .downloadfile .container .row {
+      margin: 0; }
+      .downloadfile .container .row .box-03 {
+        background: #0e8ad9;
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        top: 5%;
+        left: 45%;
+        position: absolute; }
+      .downloadfile .container .row .box-02 {
+        background: #cfe8f7;
+        width: 4px;
+        height: 100px;
+        left: 50%;
+        bottom: 93%;
+        position: absolute; }
+      .downloadfile .container .row .text-box {
         background: #fff;
-        color: #000; }
+        border-radius: 10px;
+        text-align: center;
+        padding-top: 71px;
+        padding-bottom: 23px; }
+        .downloadfile .container .row .text-box h1 {
+          color: #0e8ad9;
+          font-size: 100px;
+          font-weight: bold;
+          padding-bottom: 26px; }
+        .downloadfile .container .row .text-box p {
+          font-size: 22px; }
+      .downloadfile .container .row .text {
+        text-align: center;
+        color: #fff; }
+        .downloadfile .container .row .text h1 {
+          font-size: 32px;
+          font-weight: bold;
+          margin-bottom: 15px; }
+        .downloadfile .container .row .text p {
+          font-size: 26px;
+          opacity: .7;
+          margin-bottom: 40px; }
+        .downloadfile .container .row .text button {
+          font-size: 26px;
+          font-weight: bold;
+          background: none;
+          border: 5px solid rgba(255, 255, 255, 0.3);
+          border-radius: 40px;
+          height: 80px;
+          width: 300px;
+          -webkit-transition: 0.5s;
+          -moz-transition: 0.5s;
+          -ms-transition: 0.5s;
+          -o-transition: 0.5s;
+          transition: 0.5s; }
+          .downloadfile .container .row .text button:hover {
+            background: #fff;
+            color: #000; }
 
 .user-profile {
   background: #fff;
@@ -351,6 +350,8 @@ body {
       padding: 0 20px 0 10%; }
     .filter .container .row-02 span, .filter .container .row-03 span {
       font-size: 26px; }
+    .filter .container .row-03 .dropdown-menu {
+      top: 72%; }
     .filter .container .row-03 .btn {
       height: 80px;
       width: 520px;
@@ -404,6 +405,10 @@ body {
         background: url("../img/checked.jpg"); }
         .filter .container .row-03 .checkbox .checkbox-checked:hover {
           cursor: pointer; }
+      .filter .container .row-03 .checkbox .checkbox-unchecked {
+        background: #fff; }
+        .filter .container .row-03 .checkbox .checkbox-unchecked:hover {
+          cursor: pointer; }
       .filter .container .row-03 .checkbox .text-checkbox {
         height: 46px;
         line-height: 46px;
@@ -412,11 +417,9 @@ body {
 .responsive-calendar {
   background: #111;
   border-radius: 12px;
-  width: 1260px;
-  margin: auto; }
+  width: 1260px; }
   .responsive-calendar .container {
-    width: 1035px;
-    margin: auto; }
+    width: 1035px; }
     .responsive-calendar .container .controls {
       background: #ffc600;
       height: 100px;
@@ -446,7 +449,6 @@ body {
       .responsive-calendar .container .days .day a {
         color: #fff;
         font-size: 42px;
-        height: 145px;
         padding: 0;
         line-height: 145px; }
         .responsive-calendar .container .days .day a:hover {
@@ -464,7 +466,8 @@ body {
         color: #000; }
 
 .graphique {
-  background: url("../img/bg-graphic.png"); }
+  background: url("../img/bg-graphic.png");
+  background-size: cover; }
   .graphique .row {
     margin: 0; }
     .graphique .row .col-md-2 {
@@ -547,7 +550,24 @@ body {
 
 .info-01,
 .info-02,
-.info-03 {
+.info-03,
+.info-04,
+.info-05 {
   position: relative; }
+
+.row {
+  margin-right: 0; }
+
+.info-02 {
+  left: 2%; }
+
+.info-03 {
+  left: 10%; }
+
+.info-05 {
+  left: 10%; }
+
+.container-fix {
+  margin-top: 2%; }
 
 /*# sourceMappingURL=main.css.map */

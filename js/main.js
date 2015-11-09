@@ -2,17 +2,14 @@ var main = function (){
 	$('.responsive-calendar').responsiveCalendar();
   	$('#calendar').responsiveCalendar('prev');
   	$('#calendar').responsiveCalendar('next');
+    // $("span").css("pointer-events", "none");
   	$( ".checkbox-01" ).click(function() {
-	  alert("Handler for .click() called.");
-	});
-	$('div.checkbox > span:checkbox').change(function () {
-    if ($(this).is(":checked")) {
-      $(this).addClass('.checkbox-checked');
-    }
-    else {
-      $(this).removeClass('.checkbox-checked');
-    };
-	});
+      if ($(this).hasClass("checkbox-checked")) {
+        $(this).removeClass("checkbox-checked");
+      } else {
+        $(this).addClass("checkbox-checked");
+	     }
+     });
 };
 
 jQuery(document).ready(main);

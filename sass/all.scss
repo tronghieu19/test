@@ -1,14 +1,22 @@
 .info-01,
 .info-02,
-.info-03 {
+.info-03,
+.info-04,
+.info-05 {
 	position: relative;
 }
-.col-md-6 {
-	
+.row {
+	margin-right: 0;
 }
-// .info-02 {
-// 	left: 45%;
-// }
-// .info-03 {
-// 	left: 66%;
-// }
+.info-02 {
+	left: 2%;
+}
+.info-03 {
+	left: 10%;
+}
+.info-05 {
+	left: 10%;
+}
+.container-fix {
+	margin-top: 2%;
+}
